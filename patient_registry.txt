@@ -1,0 +1,16 @@
+
+Patient Name : abc
+Age          : 21
+Gender       : Male
+DOB          : 2026-06-18
+Phone        : 123
+Address      : ghaziabad
+Disease      : fever
+
+Patient Name : abc
+Age          : 20
+Gender       : Male
+DOB          : 2026-06-17
+Phone        : 123
+Address      : gzb
+Disease      : fever

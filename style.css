@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, sans-serif;
+}
+body{
+    background:#f4f8fb;
+}
+
+
+
+nav{
+    background:#0077b6;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 50px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:25px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+
+
+.hero{
+    text-align:center;
+    padding:60px 20px;
+    background:linear-gradient(
+        135deg,
+        #0096c7,
+        #48cae4
+    );
+    color:white;
+}
+
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+
+
+.container{
+    display:flex;
+    justify-content:center;
+    padding:40px 20px;
+}
+
+.form-card{
+    width:650px;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.form-card h2{
+    text-align:center;
+    margin-bottom:25px;
+    color:#023e8a;
+}
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:600;
+}
+
+input,
+select,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+input:focus,
+select:focus,
+textarea:focus{
+    outline:none;
+    border-color:#0096c7;
+}
+
+button{
+    width:100%;
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    border-radius:8px;
+    background:#0077b6;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#023e8a;
+}
+
+.view-btn{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    text-decoration:none;
+    color:#0077b6;
+    font-weight:bold;
+}
+
+
+
+footer{
+    text-align:center;
+    background:#023e8a;
+    color:white;
+    padding:20px;
+    margin-top:30px;
+}
